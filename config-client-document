@@ -1,0 +1,9 @@
+# config-client-example
+
+Spring Cloud Config is Spring's client/server approach for storing and serving distributed configurations across multiple applications and environments.
+This configuration store is ideally versioned under Git version control and can be modified at application runtime.
+
+
+GET : http://localhost:9095/limits
+Response:
+{"maximum":9999,"minimum":99}
